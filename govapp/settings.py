@@ -153,3 +153,4 @@ if len(GIT_COMMIT_HASH) == 0:
        print ("ERROR: No git hash provided")
 
 VERSION_NO='2.00'
+ENABLE_DJANGO_LOGIN=env('ENABLE_DJANGO_LOGIN', False)
